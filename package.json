@@ -1,0 +1,24 @@
+{
+  "name": "fp_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "gts": "^5.3.1",
+    "typescript": "5.1.6"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
